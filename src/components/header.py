@@ -3,7 +3,7 @@ import streamlit as st
 
 def header_home():
 
-    logo_url = "https://www.cusb.ac.in/images/cusb/logo-new3.png"
+    logo_url = "https://i.postimg.cc/bZv0spSG/cusb.png"
     
     st.markdown(f"""
         <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-bottom:30px; margin-top:30px">
