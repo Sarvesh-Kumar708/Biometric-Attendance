@@ -14,14 +14,14 @@ def home_screen():
 
     with col1:
         # st.header("I'm Student")
-        st.image("https://www.cusb.ac.in/images/cusb/icon/student_samarth_login.jpg#joomlaImage://local-images/cusb/icon/student_samarth_login.jpg?width=300&height=300", width=300)
+        st.image("https://i.postimg.cc/QFnQ7wcd/student-samarth-login-(1).jpg", width=300)
         if st.button('Student Portal', type='primary', icon=':material/arrow_outward:', icon_position='right'):
             st.session_state['login_type']='student'
             st.rerun()
 
     with col2:
         # st.header("I'm Teacher")
-        st.image("https://www.cusb.ac.in/images/cusb/icon/employee_samarth_login.jpg#joomlaImage://local-images/cusb/icon/employee_samarth_login.jpg?width=300&height=300", width=300)
+        st.image("https://i.postimg.cc/sM0YWq5f/employee-samarth-login.jpg", width=300)
         if st.button('Teacher Portal', type='primary', icon=':material/arrow_outward:', icon_position='right'):
             st.session_state['login_type']='teacher'
             st.rerun()
